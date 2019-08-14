@@ -1,3 +1,7 @@
 append: https://ethicmodel.pythonanywhere.com/append
 train: https://ethicmodel.pythonanywhere.com/train
 predict: https://ethicmodel.pythonanywhere.com/predict
+
+CLOUD_NAME: ethicreport
+API_KEY: 692249525549676
+API_SECRET: 6Xa1qMPmAoba0rMhYCm8b0whtHs

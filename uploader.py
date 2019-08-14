@@ -1,11 +1,12 @@
 import cloudinary
 import cloudinary.uploader
+import yaml
 
-CLOUD_NAME = 'ethicreport'
-API_KEY = '692249525549676'
-API_SECRET = '6Xa1qMPmAoba0rMhYCm8b0whtHs'
+CLOUD_NAME = yaml.load(open('endpoints.yml'), Loader=yaml.FullLoader)['CLOUD_NAME']
+API_KEY = yaml.load(open('endpoints.yml'), Loader=yaml.FullLoader)['API_KEY']
+API_SECRET = yaml.load(open('endpoints.yml'), Loader=yaml.FullLoader)['API_SECRET']
 
-cloudinary.config(
+loudinary.config(
     cloud_name = CLOUD_NAME,  
     api_key = API_KEY,  
     api_secret = API_SECRET
