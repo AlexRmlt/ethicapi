@@ -1,0 +1,3 @@
+append: https://ethicmodel.pythonanywhere.com/append
+train: https://ethicmodel.pythonanywhere.com/train
+predict: https://ethicmodel.pythonanywhere.com/predict
