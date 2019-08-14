@@ -1,9 +1,0 @@
-gunicorn
-flask
-requests
-pandas
-cloudinary
-matplotlib
-anytree
-imgkit
-pyyaml
