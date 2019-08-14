@@ -1,0 +1,4 @@
+endpoints.yml
+__pycache__/
+deontology/__pycache__/
+utilitarism/__pycache__/
